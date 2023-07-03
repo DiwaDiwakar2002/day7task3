@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background: linear-gradient(to top, rgb(200, 119, 119),rgb(219, 92, 92));
+    color: white;
+}
+
+img{
+    width: 250px;
+    position:relative;
+    z-index: 1;
+    top: 60px;
+}
+
+.fast{
+    position: absolute;
+    top: 30px;
+    font-size: 250px;
+    opacity: 0.1;
+}
+
+.page{
+    font-size: 12px;
+    position: absolute;
+    bottom: 30px;
+    left: 160px;
+
+}
+
+.page i{
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.364);
+}
+
+.page i:first-child{
+    color: white;
+}
+.card1{
+    background: linear-gradient(to top, rgb(255, 33, 33),rgb(255, 97, 123),rgb(252, 199, 92)130%);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 160px;
+    left: 350px;
+    text-align: center;
+
+}
+
+.card2{
+    width: 350px;
+    height: 480px;
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 280px;
+    left: 750px;
+}
+
+.search{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 30px;
+    
+}
+
+.star{
+    color: gold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.price{
+    color: rgb(72, 72, 72);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 25px;
+}
+
+h2{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.para{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: rgb(72, 72, 72);
+}
+
+h3{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+
+.color{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    font-size: 20px;
+}
+
+.color i{
+    margin: 15px;
+}
+
+.rose{
+    color: rgb(255, 61, 94);
+}
+
+.red{
+    color: rgb(255, 23, 23);
+    border: 3px solid rgba(100, 100, 100, 0.516);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.green{
+    color: rgb(63, 255, 63);
+}
+
+.blue{
+    color: rgb(35, 43, 255);
+}
+
+h4{
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+}
+
+.size{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 280px;
+    left: 50px;
+}
+
+.size p{
+    display: inline-block;
+    margin: 20px;
+}
+
+.size p:first-child{
+    border: 3px solid rgba(100, 100, 100, 0.516);
+    border-radius: 0;
+    padding: 7px;
+}
+
+button{
+    background: linear-gradient(to top, rgb(255, 33, 33),rgb(255, 97, 123),rgb(252, 199, 92)130%);
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    left: 70px;
+    border-radius: 50px;
+}
+
+.para2{
+    position: absolute;
+    bottom: 15px;
+    left: 112px;
+    color: rgb(87, 87, 87);
+    text-decoration: underline;
+}
